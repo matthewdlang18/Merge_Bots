@@ -32,4 +32,20 @@ Token transaction data is downloaded and then moved to Stata, where the sandwich
 
 * Create [figures of transactions and cumulative profit](https://github.com/matthewdlang18/Merge_Bots/blob/main/Bot_594e_analysis/594e_txns_figure.py)
 
-## Uniswap V2 and V3 Routers
+## [Uniswap V2](https://github.com/matthewdlang18/Merge_Bots/tree/main/Uniswap_v2_router) and [V3 Routers](https://github.com/matthewdlang18/Merge_Bots/tree/main/Uniswap_v3_router)
+
+* Scrape [transactions from Etherscan API](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_v2_router/uniswapv2_tx_scrape.py) and save uniswapv2.csv
+
+* Run [uniswap_v2_do.do file](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_v2_router/uniswap_v2_do.do) and export uniswapv2txn.csv
+
+* Create [figures of transactions](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_v2_router/uniswapv2txns.py) and [failed transactions](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_v2_router/uniswapv2txns.py)
+
+## Uniswap Daily Volume
+
+* Download the volumes data from [Defi Llama Api](https://defillama.com/docs/api)
+
+* Convert json to csv with [uniswap_vol_json_csv.py](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_daily_volume/uniswap_vol_json_csv.py)
+
+* Run [Uniswap_daily_volume do file](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_daily_volume/uniswap_daily_vol.do) and create uniswapdailyvolume.csv.
+
+* Create [daily and cumulative volume figure](https://github.com/matthewdlang18/Merge_Bots/blob/main/Uniswap_daily_volume/uniswapvolumefigure.py)
